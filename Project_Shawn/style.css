@@ -21,7 +21,17 @@ background: #000000;
    position: relative;
    bottom: 50px;
 }
-
+img{
+    background-color: black;
+    
+    height: 500px;
+    border: 3px solid #ff8c00; 
+    background: #000000;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 
 body{
 background-image: url('images/plane_background.jpg');
