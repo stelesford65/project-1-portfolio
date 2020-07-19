@@ -11,6 +11,18 @@
             $("#div1").fadeIn(2000);
             $("#div2").fadeIn(2000);
           });
+
+          $(function() {
+           $(".toggle").on("click", function(){
+           if($(".item").hasClass("active")){
+               $(".item").removeClass("active");
+           }
+           else{
+            $(".item").addClass("active");
+           }
+        
+        })   
+        });
         </script>
 </head>
 <body>
@@ -19,12 +31,21 @@
             <p class="shawn">Shawn Telesford</p>
         </div>
         <div>
-            <p style="text-align:center">
+            <!--<p style="text-align:center">
                 <a style="color: #ff8c00; font-size: 45px; font-family: Copperplate, fantasy; font-weight: 1500;
                 text-shadow: 1px 0 black; border-radius: 12px; background-color: rgb(0, 0, 0); width: 100%; font-weight: 800;">Home</a>&nbsp;&nbsp;&nbsp;
                 <a href="page2.html" style="text-decoration: none;">About me</a>&nbsp;&nbsp;&nbsp;
                 <a href="page3.html" style="text-decoration: none;">Projects</a>
-                </p>
+                </p>-->
+                <nav>
+                    <ul class="menu">
+                    <li class="item"><a style="color: #ff8c00; font-size: 45px; font-family: Copperplate, fantasy; font-weight: 1500;
+                        text-shadow: 1px 0 black; border-radius: 12px; background-color: rgb(0, 0, 0); width: 100%; font-weight: 800; text-decoration: none;"href="#">Home</a></li>
+                    <li class="item"><a style="text-decoration: none;" href="page2.html">About Me</a></li>
+                    <li class="item"><a style="text-decoration: none;" href="page3.html">Projects</a></li>
+                    <li class="toggle"><span class="bars"></span></li>
+                    </ul>
+                </nav>
         </div>
         <div id="div1" style="display: none">
             <img src="images/night_flight.jpg">
@@ -44,8 +65,8 @@ See the <a class="reg_link" href="page3.html">projects</a> I've worked on.</pre>
     <div class="title2">
         <p class="shawn2">Let's Talk</p>
     </div>
-    <div>
-        <iframe style ="float: left" src="https://docs.google.com/forms/d/e/1FAIpQLScI8nAYpgTTiMnicWFhU8g1oCf5vHq9nvwmBFN4TSv0aj1Y4A/viewform?embedded=true" width="640" height="947" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <div class="iframe" style ="float: left;  margin-left:0px; margin-right: auto;">
+        <iframe class="frame" style ="float: left; margin-left:0px; margin-right: auto;" src="https://docs.google.com/forms/d/e/1FAIpQLScI8nAYpgTTiMnicWFhU8g1oCf5vHq9nvwmBFN4TSv0aj1Y4A/viewform?embedded=true" width="640" height="947" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         <div class="title3">
             <ul class="shawn3">
             <li class="shawn3">Give me feedback on my work.</li>
