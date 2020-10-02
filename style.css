@@ -190,7 +190,7 @@ font-weight: 1500;
 color: white;
 text-shadow: 1px 0 black;
 }
-<<<<<<< HEAD
+
 /* The Slide show from page2 start*/
 /*Source Used: w3 schools*/
 * {box-sizing: border-box}
@@ -203,7 +203,7 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
-=======
+}
 .iframe{
     width: 80%;
   
@@ -215,7 +215,7 @@ margin-right:600px;
 color: #ff3300;
 font-weight: 1500;
 text-shadow: 0 0 3px;
->>>>>>> 3ccdba639377143024b0e120bd7761f605c7545f
+
 }
 
 /* Next & previous buttons */
