@@ -2,8 +2,72 @@
 <html>
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <link rel ="stylesheet" type="text/css" href="Indexcss.css">
 <script type="text/javascript" src="indexjs.js" defer></script>
+    <style>
+        /*
+Sources used: 
+>w3 schools
+>https://www.youtube.com/watch?v=6pidsgeLLzE
+>Stack overflow
+        */
+body{
+background-color: black;
+}
+.flexbox{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+display:none;
+align-items: center;
+}
+       
+.title{
+margin-top: 23%;
+background-color: black;
+width: 100%;
+height: 200px;
+font-size: 82px;
+font-family: Times New Roman, serif;
+color: white;
+font-weight: 1500;
+text-shadow: 0 0 3px; 
+
+}
+
+.shawn{
+    font-size: 100px;
+font-family: Copperplate, fantasy;
+color: white;
+font-weight: 900;
+text-shadow: 0 0 3px;
+text-align: center;
+}
+
+.shawn2{
+font-size: 25px;
+font-family: Copperplate, fantasy;
+color: white;
+font-weight: 1500;
+text-shadow: 0 0 3px; 
+text-align: center;
+text-decoration: none;
+}
+@media only screen and (max-width: 1366px) {  
+    div{
+float: left;
+    }
+}
+    </style>
+<script>
+$(document).ready(function(){
+    $("#div1").fadeIn(8000);
+    $("#div2").fadeIn(20000);
+  });
+
+</script>
+
 </head>
 <body>
 
