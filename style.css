@@ -23,7 +23,7 @@ height: 200px;
 font-size: 42px;
 font-family: Times New Roman, serif;
 color: white;
-font-weight: 1500;
+font-weight: 900;
 text-shadow: 0 0 3px; 
 border: 3px solid #ff8c00; 
 background: #000000;
@@ -34,7 +34,7 @@ background: #000000;
 font-size: 42px;
 font-family: Times New Roman, serif;
 color: white;
-font-weight: 1500;
+font-weight: 900;
 text-shadow: 0 0 3px; 
 text-align: center;
 position: relative;
@@ -48,7 +48,7 @@ top: 50px;
     font-size: 42px;
     font-family: Times New Roman, serif;
     color: white;
-    font-weight: 1500;
+    font-weight: 900;
     text-shadow: 0 0 3px; 
     border: 3px solid #ff8c00; 
     background: #000000;
@@ -61,7 +61,7 @@ top: 50px;
         font-size: 42px;
         font-family: Times New Roman, serif;
         color: white;
-        font-weight: 1500;
+        font-weight: 900;
         text-shadow: 0 0 3px; 
         border: 3px solid #ff8c00; 
         background: #000000;
@@ -76,7 +76,7 @@ top: 50px;
     font-size: 42px;
     font-family: Times New Roman, serif;
     color: white;
-    font-weight: 1500;
+    font-weight: 900;
     text-shadow: 0 0 3px; 
     text-align: center;
     position: relative;
@@ -87,7 +87,7 @@ top: 50px;
         font-size: 42px;
         font-family: Times New Roman, serif;
         color: white;
-        font-weight: 1500;
+        font-weight: 900;
         text-shadow: 0 0 3px; 
         text-align: left;
         position: relative;
@@ -138,17 +138,9 @@ color: #ff3300;
 text-shadow: 1px 0 black;
 }
 
-/*p.Intro{
-font-size: 42px;
-font-family: Times New Roman, serif;
-color: #ff3300;
-font-weight: 1500;
-text-shadow: 0 0 3px; 
-}*/
-
 pre.Intro1{
 color: white;
-font-weight: 1500;
+font-weight: 900;
 font-size: 25px;
 font-family: Times New Roman, serif;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -159,7 +151,7 @@ left: 20px;
 
 pre.Intro2{
 color: white;
-font-weight: 1500;
+font-weight: 900;
 font-size: 25px;
 font-family: Times New Roman, serif;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -169,7 +161,7 @@ left: 20px;
 }
 .Intro3{
     color: white;
-    font-weight: 1500;
+    font-weight: 900;
     font-size: 25px;
     font-family: Times New Roman, serif;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -187,7 +179,7 @@ text-shadow: 0 0 3px;
 a{
 font-size: 45px;
 font-family: Copperplate, fantasy;
-font-weight: 1500;
+font-weight: 900;
 color: white;
 text-shadow: 1px 0 black;
 }
@@ -208,15 +200,6 @@ img {vertical-align: middle;}
 .iframe{
     width: 80%;
   
-}
-/*ul{
-font-size: 42px;
-margin-left:0px; 
-margin-right:600px;
-color: #ff3300;
-font-weight: 1500;
-text-shadow: 0 0 3px;
-
 }
 
 /* Next & previous buttons */
@@ -326,7 +309,7 @@ text-shadow: 0 0 3px;
     font-size: 15px;
     font-family: Times New Roman, serif;
     color: white;
-    font-weight: 1500;
+    font-weight: 900;
     text-shadow: 0 0 3px; 
     border: 3px solid #ff8c00; 
     background: #000000;
@@ -363,7 +346,7 @@ text-shadow: 0 0 3px;
     font-size: 42px;
     font-family: Times New Roman, serif;
     color: white;
-    font-weight: 1500;
+    font-weight: 900;
     text-shadow: 0 0 3px; 
     border: 3px solid #ff8c00; 
     background: #000000;
@@ -381,7 +364,7 @@ text-shadow: 0 0 3px;
 
     .reg_link{
     color: #ff8c00;
-    font-weight: 1500;
+    font-weight: 900;
     font-size: 25px;
     font-family: Times New Roman, serif;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
