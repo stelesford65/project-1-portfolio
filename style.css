@@ -295,6 +295,39 @@ img {vertical-align: middle;}
   
 }
 
+.float-container{
+    width: 100%;
+    float: left;
+    margin-left:0px;
+    margin-right: auto;
+  
+}
+
+.float-child{
+    background-color: black;
+    height: 200px;
+    font-size: 42px;
+    font-family: Times New Roman, serif;
+    color: white;
+    font-weight: 900;
+    text-shadow: 0 0 3px; 
+    border: 3px solid #ff8c00; 
+    background: #000000;
+
+    width: 50%;
+    float: left;
+    margin-left:0px;
+    margin-right: auto;
+    margin-top: 10px;
+  
+}
+
+.float-child-1{
+    width: 50%;
+    float: left;
+    margin-left:0px;
+    margin-right: auto;
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
