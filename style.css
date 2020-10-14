@@ -58,7 +58,7 @@ top: 50px;
     }
     .title3{
         background-color: black;
-        width: 300px;
+        width: 600px;
         height: 200px;
         font-size: 42px;
         font-family: Times New Roman, serif;
@@ -68,7 +68,9 @@ top: 50px;
         border: 3px solid #ff8c00; 
         background: #000000;
         margin-top: 10px;
-        
+        position: relative;
+        left: 700px;
+        bottom: 610px;
            }
     
     .shawn2{
