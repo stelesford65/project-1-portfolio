@@ -18,6 +18,33 @@ width: 100%;
     font-size: 30px;
     text-align: center;
   }
+  .grid-container-1 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .grid-container-1 .grid-item-1 {
+    position: relative;
+    width: 30%;
+    height: 500px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  .grid-container-1 .grid-item-1 .img-item{
+  position: relative;
+}
+
+.grid-container-1 .grid-item-1 .img-item img{
+    width: 100%;
+    transition: transform 0.5s;
+  }
+  .grid-container-1 .grid-item-1:hover .img-item img{
+  transform: scale(1.1);
+}
 .title{
 background-color: black;
 width: 100%;
@@ -29,9 +56,11 @@ font-weight: 900;
 text-shadow: 0 0 3px; 
 border: 3px solid #ff8c00; 
 background: #000000;
-
 }
 
+.no-dec{
+text-decoration: none;
+}
 .shawn{
 font-size: 42px;
 font-family: Times New Roman, serif;
@@ -105,7 +134,14 @@ margin-left: auto;
 margin-right: auto;
 width: 100%;
 }
-
+.img3{
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    margin-top: 10px;
+}
 .img2{
 background-color: black;       
 height: 500px;
@@ -118,7 +154,7 @@ width: 100%;
 }
 
 body{
-background-image: url('images/plane_background.jpg');
+background-color: #4c4c4c;   
 background-repeat: no-repeat; 
 background-attachment: fixed;
 }
@@ -135,7 +171,7 @@ p{
 font-size: 45px;
 font-family: Copperplate, fantasy;
 font-weight: 900;
-color: #ff3300;
+color: #ff8c00;
 text-shadow: 1px 0 black;
 }
 
