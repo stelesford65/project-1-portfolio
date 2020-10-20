@@ -508,7 +508,7 @@ img {vertical-align: middle;}
 /* The Slide show from page2 end*/
 
 
-@media only screen and (max-width: 50px) {     
+@media only screen and (max-width: 600px) {     
     .flexbox{
     float: none;
     width: 100%;
@@ -679,7 +679,7 @@ img {vertical-align: middle;}
     
         /* Tablet Menu */
        
-        @media all and (min-width: 1300px){
+        @media all and (min-width: 500px){
     .item{
     display:block;
     width:auto;
