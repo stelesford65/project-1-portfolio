@@ -508,7 +508,7 @@ img {vertical-align: middle;}
 /* The Slide show from page2 end*/
 
 
-@media only screen and (max-width: 1300px) {     
+@media only screen and (max-width: 900px) {     
     .flexbox{
     float: none;
     width: 100%;
