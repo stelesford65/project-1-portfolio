@@ -8,7 +8,6 @@ width: 100%;
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: black;
     padding: 10px;
   }
   .grid-item {
@@ -17,6 +16,7 @@ width: 100%;
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    margin-top: 10px;
   }
   .grid-container-1 {
     width: 100%;
@@ -679,7 +679,7 @@ img {vertical-align: middle;}
     
         /* Tablet Menu */
        
-        @media all and (min-width: 50px){
+        @media all and (min-width: 1300px){
     .item{
     display:block;
     width:auto;
