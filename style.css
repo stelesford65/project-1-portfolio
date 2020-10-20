@@ -502,13 +502,13 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (min-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
 /* The Slide show from page2 end*/
 
 
-@media only screen and (max-width: 600px) {     
+@media only screen and (max-width: 1300px) {     
     .flexbox{
     float: none;
     width: 100%;
