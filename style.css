@@ -524,6 +524,9 @@ img {vertical-align: middle;}
     .float-child{
     display: none;
     }
+    .grid-item{
+      display: none;
+    }
     .title{
     background-color: black;
     width: 100%;
