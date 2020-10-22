@@ -25,14 +25,3 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-$(function() {
-$(".toggle").on("click", function(){
-if($(".item").hasClass("active")){
-   $(".item").removeClass("active");
-}
-else{
-$(".item").addClass("active");
-}
-
-})   
-});

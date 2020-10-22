@@ -9,7 +9,19 @@
     <title>About Shawn</title>
 
     <script src="page2js.js" defer></script>
+<script>
+  $(function() {
+$(".toggle").on("click", function(){
+if($(".item").hasClass("active")){
+   $(".item").removeClass("active");
+}
+else{
+$(".item").addClass("active");
+}
 
+})   
+});
+</script>
 </head>
 <body>
     <div class="flexbox">

@@ -85,6 +85,7 @@ width: 100%;
     width: 100%;
   }
 
+
 .nav-bar{
     margin: auto; 
     width: 50%;
@@ -519,6 +520,9 @@ img {vertical-align: middle;}
     color: white;
     font-weight: 900;
     text-shadow: 0 0 3px;
+    }
+    .float-child{
+    display: none;
     }
     .title{
     background-color: black;

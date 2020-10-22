@@ -7,7 +7,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shawn Telesford</title>
+
     <script src="page1js.js" defer></script>
+
+    <script>
+          $(function() {
+$(".toggle").on("click", function(){
+if($(".item").hasClass("active")){
+   $(".item").removeClass("active");
+}
+else{
+$(".item").addClass("active");
+}
+
+})   
+});
+    </script>
 </head>
 <body>
     <div class="flexbox">
@@ -28,11 +43,11 @@
     </div>
         <div id="div1" style="display: none">
             <img src="images/night_flight.jpg" alt="Airplane">
-         <div>
+     
             <pre class="Intro1">
                 My career takes flight! <br>
                 Please check out my <a class="reg_link">work</a> or my <a class="reg_link">about me page.</a></pre>
-            </div>
+            
         </div>
 
         <div class="grid-container-2">
