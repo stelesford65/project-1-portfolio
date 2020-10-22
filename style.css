@@ -521,6 +521,18 @@ img {vertical-align: middle;}
     font-weight: 900;
     text-shadow: 0 0 3px;
     }
+    .img3{
+    width: 100%
+    }
+    .img-item{
+      width: 100%
+    }
+    .grid-container-1 .grid-item-1{
+      width: 100%
+    }
+    .words{
+font-size: 11px;
+    }
     .float-child{
     display: none;
     }
@@ -686,7 +698,7 @@ img {vertical-align: middle;}
     
         /* Tablet Menu */
        
-        @media all and (min-width: 500px){
+        @media all and (min-width: 1320px){
     .item{
     display:block;
     width:auto;
